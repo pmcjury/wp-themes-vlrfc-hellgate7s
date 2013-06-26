@@ -51,7 +51,7 @@
         <div id="container">
             <div id="back-link">
                 <h1 class="back round-top-left round-top-right" >
-                    <a href="http://www.vilagelions.org" title='Back to Village Lions RFC Home Page'>Back to Village Lions RFC Home Page</a>
+                    <a href="http://www.villagelions.org" title='Back to Village Lions RFC Home Page'>Back to Village Lions RFC Home Page</a>
                 </h1>
             </div>
             <div>
