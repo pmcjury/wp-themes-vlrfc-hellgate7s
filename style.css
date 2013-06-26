@@ -24,7 +24,7 @@ h1 {
 	padding: 9px 0 9px 10px; margin: 10px 0; background-color: #000; color: #fff; font-size: 20px; font-weight: bold; border-bottom: 1px solid #434141; border-top: 1px solid #434141; }
 #back-link h1{ margin:0px; padding: 3px; font-size: 11px; height: 12px; text-align: center;}
 #back-link a{ color:#fff;}
-#back-link a:hover{ color:#000;}
+#back-link a:hover{ color:#fe0000;}
 #container { margin: 0 auto; width: 900px; background-color: #000; text-align: left; position: relative;}
 
 #header { position: relative; height: 225px; margin-bottom: 5px; background:#000; text-align:center;}
@@ -51,7 +51,7 @@ h1 {
 	-o-transition: 150ms linear 0s;
 	transition: 150ms linear 0s;
 	outline: 0 none;
-	color: #000;
+	color: #fe0000;
 
 }
 
