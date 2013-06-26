@@ -1,0 +1,134 @@
+﻿/*
+Theme Name: VLRFC Hellgate 7s 
+Theme URI: http://hellgate7s.villagelions.org/
+Description: This theme for the Village Lions Rugby Football Club Hellgate7s.
+Version: 1.0
+Author: Patrick H. McJury
+Author URI: http://patrickmcjury.com
+Tags: villagelions, vlrfc, rugby , 7s
+
+	VLRFC 1.0
+	 http://patrickmcjury.com
+
+	This theme was design by Patrick H. McJury
+
+*/
+/* 4 Leaf fifteens style sheet */
+body { background: #000 url('images/grass_bg.jpg') ; background-repeat: repeat-x; color:#000;
+	font-family: sans-serif;
+}
+h1 { 
+	-webkit-box-shadow: 0 8px 6px -6px #000;
+	   -moz-box-shadow: 0 8px 6px -6px #000;
+	        box-shadow: 0 8px 6px -6px #000;
+	padding: 9px 0 9px 10px; margin: 10px 0; background-color: #000; color: #fff; font-size: 20px; font-weight: bold; border-bottom: 1px solid #434141; border-top: 1px solid #434141; }
+#back-link h1{ margin:0px; padding: 3px; font-size: 11px; height: 12px; text-align: center;}
+#back-link a{ color:#fff;}
+#back-link a:hover{ color:#000;}
+#container { margin: 0 auto; width: 900px; background-color: #000; text-align: left; position: relative;}
+
+#header { position: relative; height: 225px; margin-bottom: 5px; background:#000; text-align:center;}
+#header img {  margin:0 auto; z-index: 0; text-align:center; }
+#header p { padding: 10px 10px 0; color: #fff; text-transform: uppercase; font-size: 11px; position: absolute; top: 0; z-index: 10;}
+#header p.header_text_left { left: 0;}
+#header p.header_text_right { right : 0; text-align: right;}
+
+/* Styles for the Navigation & Dropdown menus */
+#nav_main { height: 36px; text-align: center; background-color: #000; margin-bottom: 0px; position: relative; z-index: 5; border-top: 5px solid #fff}
+#nav_main ul { display: inline-block;}
+#nav_main ul li a { 
+	-webkit-transition: 150ms linear 0s;
+	-moz-transition: 150ms linear 0s;
+	-o-transition: 150ms linear 0s;
+	transition: 150ms linear 0s;
+	font-size: 16px; font-weight: bold; line-height: 36px; color: #fff; padding: 0px 7px; text-decoration: none; text-transform: uppercase; display: block; border-left: 1px solid #fff; }
+#nav_main ul li { /* all list items */ float: left;}
+#nav_main ul li a.last_link { border-right: 1px solid #fff;}
+#nav_main ul li a:last-child { border-right: 1px solid #fff;}
+#nav_main ul li a:hover { 
+	-webkit-transition: 150ms linear 0s;
+	-moz-transition: 150ms linear 0s;
+	-o-transition: 150ms linear 0s;
+	transition: 150ms linear 0s;
+	outline: 0 none;
+	color: #000;
+
+}
+
+#nav_main ul li ul { /* second-level lists */ position: absolute; background-color: #FFF; border-right:0px solid #000; width: 160px; left: auto; line-height: 28px; display: none; /* using left instead of display to hide menus because display: none isn't read by screen readers */}
+/*#nav_main li:hover ul,*/ 
+#nav_main ul li.sfhover ul { /* lists nested under hovered list items */ left: auto; display:block; }
+
+#nav_main ul li ul li { width: 160px; }
+#nav_main ul li ul li a { background-color: #fdfdfd; color: #000; width: 100%; font-size: 13px; line-height: 28px; border-right:1px solid #000; }
+#nav_main ul li ul li a.last_link_bottom { border-bottom: 1px solid #000; }
+#nav_main ul li ul li a:hover { background-color: #fff; color: #000; }
+/* end navigation */
+
+#content_container { background: #fff; overflow: hidden; padding-top: 25px;
+	-moz-box-shadow:    inset 0 0 10px #000;
+   -webkit-box-shadow: inset 0 0 10px #000;
+   box-shadow:         inset 0 0 10px #000;
+}
+#content_container a { color: #c00; font-weight: bold; text-decoration: none;}
+#content_container a:hover { text-decoration: underline;}
+
+#content_main { float: left; width: 70%;}
+#content_main_inner { padding: 0 0 0 24px;}
+#content_main_inner form input { padding: 3px 5px;}
+#content_main_inner form table { padding: 10px 20px;}
+#content_main_inner form table tr td { padding-bottom: 10px; line-height: 24px;}
+#content_main_inner form table tr td input, #content_main_inner input { border: 1px solid #ccc;}
+#content_main_inner form table tr td input.form_submit, #content_main_inner input.form_submit{ font-weight: bold; padding: 5px 7px; color: #fff; background-color: #333; cursor: pointer;}
+
+#sidebar { float: right; width: 29.9%;}
+#sidebar_inner { padding-right: 24px; padding-left: 10px; text-align: center; }
+#sidebar_inner img { padding-bottom: 20px;}
+#sidebar_inner div.login_box { width: 235px; height: 215px; background: url('images/bg_loginbox.gif') no-repeat left top; color: #fff; position: relative; margin-bottom: 15px; text-align: left; z-index: 1;}
+#sidebar_inner div.login_box h2 { font-weight: bold; font-size: 14px; padding: 8px 0 10px 11px;}
+#sidebar_inner div.login_box p { font-size: 14px; font-weight: bold; position: absolute; bottom: 20px; left: 15px; padding: 0; line-height: 1.2em;}
+#sidebar_inner div.login_box p a { color: #000;}
+#sidebar_inner div.login_box div#grid { position: absolute; left: 20px; top: 45px;}
+#sidebar_inner div.login_box div#grid div { float: left; width: 34px; height: 34px; margin: 0px 3px 3px 0px;}
+#sidebar_inner div.widget_links { margin-top: 00px;}
+#sidebar_inner div.widget_links h2 { text-transform: uppercase; font-weight: bold; font-size: 18px; padding-bottom: 10px; }
+#sidebar_inner div.widget_links img { padding-bottom: 10px;}
+
+#footer { clear: both; }
+#footer p { padding: 15px 15px 15px 24px;; font-size: 12px;}
+
+/* Miscellaneous Classes */
+.no_topmargin { margin-top: 0;}
+.add_bottom_margin { margin-bottom: 10px;}
+.alignRight { text-align: right;}
+.floatLeft { float: left; padding: 10px 10px 10px 0;}
+.floatRight { float: right; padding: 10px 0 10px 10px;}
+.bold { font-weight: bold; font-size: 16px; padding: 0px;}
+small { font-size:12px;}
+.navigation { font-size: 13px;}
+.paged-navigation{display: block;font-size: 12px;width: 100%;clear: both;}
+.paged-alignleft{display: block;float: left;width: 49%;padding: 0px;text-align: left;}
+.paged-alignright{display: block;float: left;width: 49%;padding: 0px;text-align: right;}
+img.alignright { padding: 4px 0px 4px 8px; float: right; }
+img.alignleft { padding: 4px 8px 4px 0px; float: left; }
+.classic{ clear:both; padding:5px 0px;}
+/* tables */
+table .awards{ padding: 7px; margin: 5px 0px; width: 98%;  border-right: 1px solid #ccc; }
+table.awards th { padding: 4px 8px; background: #CC0000; font-weight: bold; font-size: 18px; color:#FFF; text-align: left; border: 1px solid #CC0000; }
+table.awards tr.header { border: 1px solid #000;}
+table.awards tr { background: #CFCFCF;}
+table.awards tr.alt { background: #DFDFDF;}
+table.awards td { padding: 4px 5px; border-bottom: 1px solid #FFF; font-size: 14px;}
+table.awards td.bold { font-weight: bold; border-left: 1px solid #CC0000; font-size: 12px;}
+table.awards td.men {}
+table.awards td.women { border-right: 1px solid #CC0000;}
+table.awards td.last { border-bottom: 1px solid #CC0000;}
+.round{-moz-border-radius:5px;-webkit-border-radius:5px;}.round-top-right{-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;}.round-right{-moz-border-radius-topright:5px;-moz-border-radius-bottomright:5px;-webkit-border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;}.round-bottom-right{-moz-border-radius-bottomright:5px;-webkit-border-bottom-right-radius:5px;}.round-bottom{-moz-border-radius-topright:0;-moz-border-radius-topleft:0;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:5px;-webkit-border-top-right-radius:0;-webkit-border-top-left-radius:0;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:5px;}.round-bottom-left{-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;}.round-left{-moz-border-radius-topleft:5px;-moz-border-radius-bottomleft:5px;-webkit-border-top-left-radius:5px;-webkit-border-bottom-left-radius:5px;}.round-top-left{-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;}.round-top{-moz-border-radius-topright:5px;-moz-border-radius-topleft:5px;-moz-border-radius-bottomright:0;-moz-border-radius-bottomleft:0;-webkit-border-top-right-radius:5px;-webkit-border-top-left-radius:5px;-webkit-border-bottom-right-radius:0;-webkit-border-bottom-left-radius:0;}
+#registered-teams-container{}
+#registered-teams{ padding:5px; height:auto; width:99%;}
+div.registered-division{float:left;width:48.5%;height:auto;position:relative;min-height:100px;_height:100px;margin:5px 0px;padding:3px 5px; border:1px solid transparent;}
+div.registered-division:hover{background-color:#D1F2D5; border:1px solid #555;}
+span.registered-division-name{font-size:24px;font-weight:bold;text-decoration:underline;}
+span.registered-division-team-count{font-weight:bold;font-size:15px; color:#666;}
+ul.registered-division-teams-list{padding:0px 5px;}
+li.registered-division-team-name{font-size:14px;padding-top:4px;list-style:inside disc; width:auto;}
