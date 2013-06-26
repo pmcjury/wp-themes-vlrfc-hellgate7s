@@ -30,4 +30,4 @@ get_header() ?>
 				<div class="clear"></div>
 			</div> <!-- end of div#content_main -->
 	<?php get_sidebar( );
-get_footer( )
+get_footer( );
