@@ -25,7 +25,7 @@ h1 {
 #back-link h1{ margin:0px; padding: 3px; font-size: 11px; height: 12px; text-align: center;}
 #back-link a{ color:#fff;}
 #back-link a:hover{ color:#fe0000;}
-#container { margin: 0 auto; width: 900px; background-color: #000; text-align: left; position: relative;}
+#container { margin: 0 auto; width: 900px; background-color: #fe0000; text-align: left; position: relative;}
 
 #header { position: relative; height: 225px; margin-bottom: 5px; background:#000; text-align:center;}
 #header img {  margin:0 auto; z-index: 0; text-align:center; }
@@ -34,14 +34,14 @@ h1 {
 #header p.header_text_right { right : 0; text-align: right;}
 
 /* Styles for the Navigation & Dropdown menus */
-#nav_main { height: 36px; text-align: center; background-color: #000; margin-bottom: 0px; position: relative; z-index: 5; border-top: 5px solid #fff}
+#nav_main { height: 36px; text-align: center; background-color: #fe0000; margin-bottom: 0px; position: relative; z-index: 5; border-top: 5px solid #fff}
 #nav_main ul { display: inline-block;}
 #nav_main ul li a { 
 	-webkit-transition: 150ms linear 0s;
 	-moz-transition: 150ms linear 0s;
 	-o-transition: 150ms linear 0s;
 	transition: 150ms linear 0s;
-	font-size: 16px; font-weight: bold; line-height: 36px; color: #fff; padding: 0px 7px; text-decoration: none; text-transform: uppercase; display: block; border-left: 1px solid #fff; }
+	font-size: 16px; font-weight: bold; line-height: 36px; color: #ffffff; padding: 0px 7px; text-decoration: none; text-transform: uppercase; display: block; border-left: 1px solid #fff; }
 #nav_main ul li { /* all list items */ float: left;}
 #nav_main ul li a.last_link { border-right: 1px solid #fff;}
 #nav_main ul li a:last-child { border-right: 1px solid #fff;}
@@ -51,7 +51,7 @@ h1 {
 	-o-transition: 150ms linear 0s;
 	transition: 150ms linear 0s;
 	outline: 0 none;
-	color: #fe0000;
+	color: #000000;
 
 }
 
@@ -60,9 +60,9 @@ h1 {
 #nav_main ul li.sfhover ul { /* lists nested under hovered list items */ left: auto; display:block; }
 
 #nav_main ul li ul li { width: 160px; }
-#nav_main ul li ul li a { background-color: #fdfdfd; color: #000; width: 100%; font-size: 13px; line-height: 28px; border-right:1px solid #000; }
-#nav_main ul li ul li a.last_link_bottom { border-bottom: 1px solid #000; }
-#nav_main ul li ul li a:hover { background-color: #fff; color: #000; }
+#nav_main ul li ul li a { background-color: #fdfdfd; color: #fe0000; width: 100%; font-size: 13px; line-height: 28px; border-right:1px solid #000; }
+#nav_main ul li ul li a.last_link_bottom { border-bottom: 1px solid #fe0000; }
+#nav_main ul li ul li a:hover { background-color: #fff; color: #fe0000; }
 /* end navigation */
 
 #content_container { background: #fff; overflow: hidden; padding-top: 25px;
