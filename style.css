@@ -34,7 +34,7 @@ h1 {
 #header p.header_text_right { right : 0; text-align: right;}
 
 /* Styles for the Navigation & Dropdown menus */
-#nav_main { height: 36px; text-align: center; background-color: #fe0000; margin-bottom: 0px; position: relative; z-index: 5; border-top: 5px solid #fff}
+#nav_main { height: 36px; text-align: center; background-color: #1e9a2a; margin-bottom: 0px; position: relative; z-index: 5; border-top: 5px solid #fff}
 #nav_main ul { display: inline-block;}
 #nav_main ul li a { 
 	-webkit-transition: 150ms linear 0s;
